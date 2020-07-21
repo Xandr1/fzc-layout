@@ -1,0 +1,14 @@
+@mixin blue-card {
+  background-color: #56ccf2;
+  color: #56ccf2;
+}
+
+@mixin yellow-card {
+  background-color: #fcc304;
+  color: #fcc304;
+}
+
+@mixin red-card {
+  background-color: #f25656;
+  color: #f25656;
+}

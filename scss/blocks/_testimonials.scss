@@ -1,0 +1,118 @@
+.testimonials {
+  padding-top: 200px;
+  &__headblock {
+    margin-left: 14vw;
+  }
+  &__subheading {
+    margin-left: 14vw;
+    max-width: 370px;
+  }
+  &__all-cards {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &__card {
+    width: 314px;
+    height: 464px;
+    background-color: #fefefe;
+    box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.05);
+    margin: 39px 0;
+    z-index: 1;
+    &:hover {
+      box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.2);
+      transform: scale(1.1);
+      transition: 0.3s;
+    }
+  }
+  &__photo-block {
+    position: relative;
+    height: 196px;
+    width: 126px;
+    margin: auto;
+  }
+  &__photo {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    height: 124px;
+    width: 64px;
+    border-radius: 500px;
+    overflow: hidden;
+    transform-origin: center;
+    transform: rotate(-25deg);
+    z-index: 1;
+  }
+  &__image {
+    position: absolute;
+    transform-origin: center;
+    transform: rotate(25deg) scale(-1, 1);
+    height: 120%;
+    top: -10px;
+    left: -25px;
+  }
+  &__oval {
+    position: absolute;
+    height: 162px;
+    width: 64px;
+    top: 10px;
+    left: 30px;
+    transform: rotate(25deg) scale(-1, 1);
+    border-radius: 500px;
+    &-blue {
+      @include blue-card;
+    }
+    &-yellow {
+      @include yellow-card;
+    }
+    &-red {
+      @include red-card;
+    }
+  }
+  &__text {
+    margin: 6px 32px 31px 32px;
+    font-style: italic;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  &__line {
+    border: 1px solid;
+    border-radius: 2px;
+    width: 64px;
+    margin: 0 auto;
+    &-blue {
+      @include blue-card;
+    }
+    &-yellow {
+      @include yellow-card;
+    }
+    &-red {
+      @include red-card;
+    }
+  }
+  &__name {
+    font-size: 13px;
+    font-weight: 700;
+    color: #152032;
+    text-align: center;
+    line-height: 150%;
+    margin-top: 31px;
+  }
+  &__position {
+    font-size: 13px;
+    font-weight: 700;
+    color: #152032;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: -13px;
+    &-blue {
+      color: #56ccf2;
+    }
+    &-yellow {
+      color: #fcc304;
+    }
+    &-red {
+      color: #f25656;
+    }
+  }
+}

@@ -1,0 +1,37 @@
+.menu-footer {
+  display: block;
+  margin: 50px 14vw 50px 7vw;
+  &__list {
+    list-style: none;
+    display: flex;
+    text-align: center;
+    line-height: 100%;
+  }
+  &__item {
+    padding: 0 5%;
+    white-space: nowrap;
+  }
+  &__link {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #253757;
+    &:hover {
+      color: #2f80ed;
+      transition: 0.2s;
+    }
+  }
+}
+
+.footer {
+  display: flex;
+  flex-direction: row-reverse;
+  &__info {
+    width: 30vw;
+    margin: 50px 6vw 50px 13vw;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 100%;
+    color: #253757;
+  }
+}

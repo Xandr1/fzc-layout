@@ -1,0 +1,16 @@
+{
+  "name": "fzc-layout",
+  "version": "1.0.0",
+  "description": "Dia - global digital agency",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "node-sass -w scss/ -o css/"
+  },
+  "keywords": [],
+  "author": "Oleksandr Kirsanov",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.0.5"
+  }
+}

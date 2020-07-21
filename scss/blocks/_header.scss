@@ -1,0 +1,106 @@
+.header {
+  background: linear-gradient(
+    115deg,
+    #56ccf2 45%,
+    #6bd3f3 45%,
+    #56ccf2 60%,
+    #6bd3f3 60%,
+    #56ccf2 75%,
+    #80d9f5 75%,
+    #56ccf2 80%,
+    #ffffff 80%
+  );
+  color: #ffffff;
+  padding-bottom: 400px;
+}
+
+.menu {
+  display: flex;
+  padding: 48px 15vw 0 10vw;
+  &__naming {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 100%;
+    padding-top: 5px;
+    margin-right: 50px;
+  }
+  &__icon {
+    width: 100px;
+    height: 100px;
+  }
+  &__burger {
+    display: none;
+    width: 100px;
+    height: 100px;
+  }
+  &__close {
+    display: none;
+    width: 100px;
+    height: 100px;
+  }
+  &__list {
+    margin-left: 75px;
+    list-style: none;
+    display: flex;
+    line-height: 100%;
+  }
+  &__item {
+    padding: 0 2vw;
+    white-space: nowrap;
+  }
+  &__link {
+    text-decoration: none;
+    color: #ffffff;
+    &:hover {
+      color: #dcdcdc;
+      transition: 0.2s;
+    }
+  }
+}
+
+.hire-link {
+  margin-left: 4vw;
+  &::after {
+    display: flex;
+    flex-direction: column;
+    content: "";
+    border: 2px solid #fcc304;
+    border-radius: 32px;
+    margin: 5px 0 0 4vw;
+  }
+}
+
+.maintext {
+  padding: 30px 15vw 0 20vw;
+  &__heading {
+    width: 100%;
+    font-size: 64px;
+    line-height: 150%;
+    font-weight: 900;
+  }
+  &__texting {
+    display: block;
+    font-size: 24px;
+    line-height: 150%;
+  }
+  &__button {
+    display: block;
+    text-decoration: none;
+    color: black;
+    width: 226px;
+    height: 56px;
+    background: #ffffff;
+    border-radius: 64px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 56px;
+    text-align: center;
+    margin-top: 42px;
+    &:hover {
+      color: #56ccf2;
+      transition: 0.2s;
+    }
+  }
+}

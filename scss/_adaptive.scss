@@ -1,0 +1,390 @@
+@media screen and (max-width: 1440px) {
+  .footer {
+    &__info {
+      width: 20vw;
+      margin: 50px 0 50px 5%;
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .menu {
+    width: 80vw;
+    padding: 48px 5vw 0 5vw;
+    &__naming {
+      font-size: 24px;
+    }
+    &__item {
+      padding: 0 3vw;
+    }
+    &__list {
+      margin-left: 0;
+    }
+  }
+  .maintext {
+    padding: 60px 5vw 0 10vw;
+    &__heading {
+      font-size: 48px;
+    }
+    &__texting {
+      font-size: 18px;
+    }
+  }
+  .process {
+    &__left-block {
+      margin-left: 5vw;
+    }
+  }
+  .features {
+    &__headblock {
+      margin-left: 5vw;
+    }
+    &__subheading {
+      margin-left: 5vw;
+    }
+    &__description {
+      margin-left: 5vw;
+    }
+    &__cover {
+      display: none;
+    }
+  }
+  .testimonials {
+    &__headblock {
+      margin-left: 5vw;
+    }
+    &__subheading {
+      margin-left: 5vw;
+    }
+  }
+  .vision {
+    padding: 0;
+    &__ovals {
+      display: none;
+    }
+  }
+  .footer {
+    &__info {
+      width: unset;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .menu {
+    padding: 48px 2vw 0 16px;
+  }
+  .process {
+    flex-direction: column;
+    height: 900px;
+    padding: 100px auto;
+    &__left-block {
+      margin: 50px auto;
+      width: 75%;
+    }
+    &__right-block {
+      width: 80%;
+      margin: 50px auto;
+    }
+  }
+  .testimonials {
+    padding-top: 100px;
+    &__headblock {
+      margin: 50px auto;
+      width: 75%;
+    }
+    &__subheading {
+      margin: 50px auto;
+      width: 75%;
+      max-width: unset;
+    }
+    &__all-cards {
+      flex-direction: column;
+    }
+    &__card {
+      margin: 25px auto;
+    }
+  }
+  .footer {
+    flex-direction: column;
+    &__info {
+      margin: auto;
+    }
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .header {
+    background: #56ccf2;
+    height: unset;
+    padding-bottom: 100px;
+  }
+  .menu {
+    &__naming {
+      display: none;
+    }
+    &__item {
+      padding: 0 2.8%;
+    }
+  }
+  .slider {
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+    &__wrap {
+      width: 100%;
+      margin: 0;
+    }
+    &__social {
+      transform: unset;
+      margin: 25px auto;
+      width: 60%;
+    }
+    &__button {
+      &-prev {
+        left: calc(100% - 81px);
+      }
+    }
+  }
+  .welcome {
+    padding: 0;
+    margin: 25px auto;
+    width: 50%;
+    &__subheading {
+      margin: 100px auto;
+    }
+  }
+  .doing {
+    flex-direction: column;
+    &__do1,
+    &__do2,
+    &__do3 {
+      width: 50%;
+      margin: 25px auto;
+    }
+    &__img-do {
+      display: block;
+      margin: 10px auto;
+    }
+  }
+  .features {
+    background: #56ccf2;
+    &__background {
+      background: #56ccf2;
+      display: flex;
+      flex-direction: column;
+      margin: auto;
+      width: 100%;
+      padding: 200px 0 100px 0;
+    }
+    &__headblock {
+      width: 75%;
+      margin: 25px auto;
+    }
+    &__subheading {
+      max-width: unset;
+      width: 75%;
+      margin: 25px auto;
+    }
+  }
+  .contacts {
+    flex-direction: column;
+    &__first {
+      width: 50%;
+      margin: auto;
+    }
+    &__second {
+      width: 50%;
+      margin: auto;
+    }
+    &__form {
+      width: 100%;
+    }
+  }
+  .menu-footer {
+    width: 100%;
+    padding: 50px 0;
+    &__list {
+      justify-content: space-evenly;
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .header {
+    padding-bottom: 50px;
+  }
+
+  .hire-link {
+    margin: 0;
+    &::after {
+      display: none;
+    }
+  }
+
+  .menu {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    &__naming {
+      display: none;
+      padding: 0;
+      margin: 38px auto;
+    }
+    &__burger {
+      display: block;
+    }
+    &__list {
+      display: none;
+      flex-direction: column;
+      margin: auto;
+      padding: 0;
+    }
+    &__item {
+      margin: 20px 0;
+    }
+  }
+
+  .maintext {
+    padding: 0 15px 0 15px;
+    &__button {
+      margin: 45px auto 15px auto;
+    }
+  }
+
+  .slider {
+    &__heading {
+      top: 40%;
+    }
+    &__texting {
+      top: 50%;
+    }
+    &__networks {
+      padding: 0 2vw;
+    }
+    &__button {
+      width: 60px;
+      height: 48px;
+      top: 16px;
+      opacity: 0.6;
+      &-prev {
+        left: calc(100% - 60px);
+      }
+    }
+  }
+
+  .process {
+    padding: 200px 0 800px 0;
+    &__right-block {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+    &__first-block,
+    &__second-block,
+    &__third-block,
+    &__fourth-block {
+      position: unset;
+      margin: 25px auto;
+    }
+    &__figures {
+      display: none;
+    }
+  }
+
+  .features {
+    &__block {
+      width: 90%;
+      height: unset;
+      display: flex;
+      flex-direction: column;
+    }
+    &__img_block {
+      margin: 0 auto;
+    }
+    &__text {
+      display: block;
+      margin: 32px auto;
+    }
+  }
+
+  .welcome {
+    width: 75%;
+    margin-top: 100px;
+  }
+
+  .contacts {
+    &__first {
+      width: 80%;
+      margin: auto;
+    }
+    &__second {
+      width: 80%;
+      margin: auto;
+    }
+    &__button {
+      margin: 50px auto 100px auto;
+    }
+    &__squares {
+      margin-right: 25%;
+    }
+    &__details {
+      width: 100%;
+    }
+    &__text {
+      width: 100%;
+    }
+    &__icons-block {
+      display: flex;
+    }
+  }
+
+  .menu-footer {
+    &__list {
+      flex-direction: column;
+      padding-left: 0;
+    }
+    &__item {
+      margin: 25px 0;
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .slider {
+    &__heading {
+      left: 10%;
+    }
+    &__texting {
+      left: 10%;
+    }
+  }
+
+  .testimonials {
+    &__card {
+      width: 75%;
+    }
+  }
+}
+
+.skip {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.initial,
+.active {
+  opacity: 1;
+  position: relative;
+  z-index: 4;
+}
+
+.prev,
+.next {
+  z-index: 3;
+}

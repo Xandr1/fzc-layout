@@ -1,0 +1,137 @@
+.vision {
+  position: relative;
+  padding: 50px 0;
+  &__heading {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 150%;
+    color: #253757;
+    text-align: center;
+    padding-top: 160px;
+  }
+  &__text {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    color: #334563;
+    text-align: center;
+    margin: 55px 26vw;
+  }
+  &__button {
+    display: block;
+    border: 4px solid #2f80ed;
+    margin: 55px auto;
+    text-decoration: none;
+    color: #ffffff;
+    width: 226px;
+    height: 48px;
+    line-height: 48px;
+    background: #2f80ed;
+    border-radius: 64px;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    &:hover {
+      background: #ffffff;
+      color: #2f80ed;
+      transition: 0.2s;
+    }
+  }
+  &__ovals {
+    border: 5px solid;
+    border-radius: 500px;
+    transform: rotate(-65.1deg);
+    position: absolute;
+    opacity: 0.5;
+    z-index: -1;
+    &-o1 {
+      color: #f25656;
+      border: 3px solid;
+      width: 86px;
+      height: 34px;
+      left: 233px;
+      top: 107px;
+    }
+    &-o2 {
+      color: #fcc304;
+      border: 3px solid;
+      width: 45px;
+      height: 18px;
+      left: 446px;
+      top: 107px;
+    }
+    &-o3 {
+      color: #56ccf2;
+      left: 82.16px;
+      top: 419.21px;
+      width: 67.36px;
+      height: 26.63px;
+    }
+    &-o4 {
+      color: #bc04fc;
+      width: 93px;
+      height: 37px;
+      left: 131px;
+      top: 591px;
+    }
+    &-o5 {
+      color: #03d542;
+      width: 143px;
+      height: 56px;
+      left: 269px;
+      top: 400px;
+    }
+    &-o6 {
+      color: #fcc304;
+      border: 3px solid;
+      width: 45px;
+      height: 18px;
+      left: 481px;
+      top: 494px;
+    }
+    &-o7 {
+      color: #bc04fc;
+      width: 45px;
+      height: 18px;
+      right: 552px;
+      top: 543px;
+    }
+    &-o8 {
+      color: #03d542;
+      width: 143px;
+      height: 56px;
+      right: 215px;
+      top: 248px;
+    }
+    &-o9 {
+      color: #bc04fc;
+      border: 3px solid;
+      width: 54px;
+      height: 21px;
+      right: 111px;
+      top: 146px;
+    }
+    &-o10 {
+      color: #fcc304;
+      width: 86px;
+      height: 34px;
+      right: 67px;
+      top: 343px;
+    }
+    &-o11 {
+      color: #f25656;
+      border: 3px solid;
+      width: 86px;
+      height: 34px;
+      right: 314px;
+      top: 451px;
+    }
+    &-o12 {
+      color: #56ccf2;
+      width: 154px;
+      height: 61px;
+      right: 143px;
+      top: 540px;
+    }
+  }
+}

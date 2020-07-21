@@ -1,0 +1,119 @@
+.process {
+  padding: 200px 0;
+  margin: 0;
+  display: flex;
+  &__headblock {
+    font-weight: 900;
+    font-size: 32px;
+  }
+  &__left-block {
+    margin-left: 14vw;
+    margin-right: 2vw;
+    width: 35%;
+  }
+  &__right-block {
+    position: relative;
+    width: 55%;
+  }
+  &__first-block,
+  &__second-block,
+  &__third-block,
+  &__fourth-block {
+    position: absolute;
+    width: 240px;
+    height: 256px;
+    box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    font-size: 12.6px;
+    line-height: 150%;
+    background-color: #ffffff;
+    &:hover {
+      box-shadow: 16px 16px 16px rgba(0, 0, 0, 0.2);
+      transform: scale(1.1);
+      transition: 0.3s;
+    }
+  }
+  &__blocks {
+    z-index: 2;
+  }
+  &__first-block {
+    top: 100px;
+    left: 0;
+  }
+  &__second-block {
+    top: 0;
+    left: 300px;
+  }
+  &__third-block {
+    top: 484px;
+    left: 0;
+  }
+  &__fourth-block {
+    top: 384px;
+    left: 300px;
+  }
+  &__numbers {
+    font-weight: 900;
+    font-size: 40px;
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 40px;
+    line-height: 220%;
+    font-weight: 900;
+  }
+  &__figures {
+    position: absolute;
+    top: -81px;
+    left: 112px;
+    width: 16px;
+    height: 420px;
+    border-radius: 500px;
+    transform: rotate(25deg);
+  }
+  .figure-1 {
+    background-color: #56ccf2;
+    top: 18px;
+    left: 112px;
+  }
+  .figure-2 {
+    background-color: #fcc304;
+    top: -82px;
+    left: 412px;
+  }
+  .figure-3 {
+    background-color: #03d542;
+    top: 402px;
+    left: 112px;
+  }
+  .figure-4 {
+    background-color: #f25656;
+    top: 302px;
+    left: 412px;
+  }
+  .number-1 {
+    margin: auto;
+    background-color: rgba(86, 204, 242, 0.1);
+    color: #56ccf2;
+  }
+  .number-2 {
+    margin: auto;
+    background-color: rgba(252, 195, 4, 0.1);
+    color: #fcc304;
+  }
+  .number-3 {
+    margin: auto;
+    background-color: rgba(3, 213, 66, 0.1);
+    color: #03d542;
+  }
+  .number-4 {
+    margin: auto;
+    background-color: rgba(242, 86, 86, 0.1);
+    color: #f25656;
+  }
+  &__text {
+    display: block;
+    padding: 32px;
+  }
+}
