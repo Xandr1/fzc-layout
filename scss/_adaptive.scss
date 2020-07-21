@@ -105,6 +105,10 @@
       margin: 25px auto;
     }
   }
+  .menu-footer {
+    margin: 50px auto;
+    overflow: hidden;
+  }
   .footer {
     flex-direction: column;
     &__info {
@@ -360,6 +364,11 @@
     &__texting {
       left: 10%;
     }
+    &__item {
+      opacity: 1;
+      position: relative;
+      z-index: 4;
+    }
   }
 
   .testimonials {
@@ -375,16 +384,4 @@
 
 .open {
   display: block;
-}
-
-.initial,
-.active {
-  opacity: 1;
-  position: relative;
-  z-index: 4;
-}
-
-.prev,
-.next {
-  z-index: 3;
 }

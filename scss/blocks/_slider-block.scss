@@ -37,11 +37,9 @@
     }
   }
   &__item {
-    position: absolute;
-    top: 0;
-    opacity: 0;
-    z-index: 1;
-    transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+    opacity: 1;
+    position: relative;
+    z-index: 4;
   }
   &__photo {
     height: 100%;

@@ -146,6 +146,14 @@ body {
   transition: 0.2s;
 }
 
+.skip {
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
 .slider {
   display: flex;
   margin-top: -320px;
@@ -186,11 +194,9 @@ body {
   opacity: 0.95;
 }
 .slider__item {
-  position: absolute;
-  top: 0;
-  opacity: 0;
-  z-index: 1;
-  transition: transform 0.5s, opacity 0.5s, z-index 0.5s;
+  opacity: 1;
+  position: relative;
+  z-index: 4;
 }
 .slider__photo {
   height: 100%;
@@ -959,6 +965,10 @@ body {
   .testimonials__card {
     margin: 25px auto;
   }
+  .menu-footer {
+    margin: 50px auto;
+    overflow: hidden;
+  }
   .footer {
     flex-direction: column;
   }
@@ -1192,6 +1202,11 @@ body {
   .slider__texting {
     left: 10%;
   }
+  .slider__item {
+    opacity: 1;
+    position: relative;
+    z-index: 4;
+  }
   .testimonials__card {
     width: 75%;
   }
@@ -1203,16 +1218,4 @@ body {
 
 .open {
   display: block;
-}
-
-.initial,
-.active {
-  opacity: 1;
-  position: relative;
-  z-index: 4;
-}
-
-.prev,
-.next {
-  z-index: 3;
 }
